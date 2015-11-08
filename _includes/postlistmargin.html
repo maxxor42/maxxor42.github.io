@@ -1,9 +1,9 @@
 <p class="post-date">
-    {{ page.date | date: "%-d %b %Y" | upcase }}
+    {{ post.date | date: "%-d %b %Y" | upcase }}
 </p>
-{% if page.categories %}
+{% if post.categories %}
 <ul class="categories">
-    {% for category in page.categories %}
+    {% for category in post.categories %}
     <li>{{ category | upcase }}</li>
     {% endfor %}
 </ul>

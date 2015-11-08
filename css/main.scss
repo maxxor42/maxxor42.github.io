@@ -8,16 +8,16 @@ $fonts:                 Times, serif;
 $border:                1px solid black;
 $small-text:            0.7em;
 
-$body-background:       none;
-$header-background:     darkred;
+$body-background:       #aa99ff;
+$header-background:     #ffe399;
 $wrapper-background:    none;
-$inline-header-text:    darkred;
+$inline-header-text:    #ffe399;
 
 $header-active:         darkgreen;
 $link-color:            black;
 $link-background:       orange;
 $link-hover:            orange;
-$margin-text-color:     grey;
+$margin-text-color:     #99fffb;
 
 $inner-padding:         5%;
 $margin:                5%;
@@ -26,11 +26,12 @@ $small-margin:          2%;
 $list-background-even:  none;
 $list-background-odd:   none;
 
+$break-point-small:     700px;
+
 @mixin link-goes-big {
   background-color: $link-background;
   text-decoration: none;
   font-size: 2.5em;
-  padding: $small-margin;
   border: 0;
 }
 
@@ -82,6 +83,12 @@ $list-background-odd:   none;
 
 @mixin p-content {
   margin: 0 $margin * 2 1em $margin * 2;
+}
+
+@mixin responsive($width) {
+  @media screen and (max-width: $width) {
+    @content;
+  }
 }
 
 @import "default", "postlist", "post", "page";

@@ -13,6 +13,8 @@ body {
 }
 
 #big-header {
+  margin-top: $small-margin;
+
   h1 {
     @include big-border;
     display: block;
@@ -80,6 +82,7 @@ nav {
 
     a:hover {
       @include link-goes-big;
+      padding: $small-margin;
     }
   }
 
@@ -87,6 +90,7 @@ nav {
     @include link-goes-big;
     font-size: 2.5em;
     background-color: $header-background;
+    padding: $small-margin;
   }
 }
 

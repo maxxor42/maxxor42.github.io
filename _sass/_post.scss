@@ -31,6 +31,17 @@
   padding: 0 $small-margin 0 0;
   width: $margin * 2 - $small-margin * 2;
   @include margin-text;
+
+  @include responsive($break-point-small) {
+    float: none;
+    width: auto;
+    margin-left: $margin;
+    padding-left: $margin;
+    border-right: 0;
+    border-left: $border;
+    text-align: left;
+
+  }
 }
 
 .categories {
@@ -40,6 +51,19 @@
   margin: 0 0 0 $small-margin;
   list-style-type: none;
   width: $margin * 2 - $small-margin * 2;
+  @include margin-text;
+
+  @include responsive($break-point-small) {
+    float: none;
+    display: inline;
+    width: auto;
+    margin-left: $margin;
+    padding-left: $margin;
+
+    li {
+      display: inline;
+    }
+  }
 
   a, a:visited, a:active {
     @include margin-link;
