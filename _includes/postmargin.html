@@ -1,0 +1,10 @@
+<p class="postDate">
+    {{ page.date | date: "%-d %b %Y" | upcase }}
+</p>
+{% if page.categories %}
+<ul class="categories">
+    {% for category in page.categories %}
+    <li><a href="">{{ category | upcase }}</a></li>
+    {% endfor %}
+</ul>
+{% endif %}

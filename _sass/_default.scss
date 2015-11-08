@@ -1,0 +1,86 @@
+body, #wrapper, div, header, main, footer, img, nav, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+header, footer, main, h1 {
+  display: block;
+}
+
+body {
+  background-color: $body-background;
+  font: $fonts;
+}
+
+h1 {
+  @include border-h1;
+  display: block;
+}
+
+#wrapper {
+  background-color: $wrapper-background;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+#big-header {
+  text-align: center;
+  padding: $inner-padding;
+  background-color: $header-background;
+
+
+}
+
+#margin-header {
+  position: absolute;
+  text-align: right;
+  right: $inner-padding;
+  top: 0;
+
+  h1 {
+    padding: 1% 0;
+    color: $margin-text-color;
+    font-size: 1em;
+    font-style: normal;
+  }
+}
+
+nav {
+  text-align: center;
+  width: 100%;
+
+  ul li {
+    display: inline;
+    margin: 0 $inner-padding;
+
+    a, a:visited, a:active {
+      font-size: 1em;
+      text-decoration: underline;
+      color: $link-color;
+    }
+
+    a:hover {
+      @include link-goes-big;
+    }
+  }
+
+  #active {
+    font-size: 2.5em;
+    color: $header-active;
+  }
+}
+
+footer {
+  bottom: -0;
+  right: $inner-padding;
+  text-align: right;
+  color: $margin-text-color;
+
+  p {
+    margin: 0;
+    padding: 1% 0;
+  }
+}
+

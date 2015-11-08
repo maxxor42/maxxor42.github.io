@@ -1,0 +1,27 @@
+<header id="big-header">
+  <h1>
+    {{ post.layout }}
+    {% if post.title %}
+      {{ post.title }}
+    {% else %}
+      {{ site.title }}
+    {% endif %}
+  </h1>
+</header>
+<nav>
+  <ul>
+    {% for sub in site.pages %}
+      {% if sub.inIndex %}
+        {% if sub.title == page.title %}
+          <li id="active">
+            {{ sub.title }}
+          </li>
+        {% else %}
+          <li>
+            <a href="{{ sub.url }}">{{ sub.title }}</a>
+          </li>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+  </ul>
+</nav>

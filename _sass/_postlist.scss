@@ -1,0 +1,27 @@
+@mixin post-exc-margin {
+  position: absolute;
+  width: 7%;
+  margin-top: 3em;
+}
+
+.postExc {
+  background-color: $list-background-odd;
+
+  p {
+    @include p-content;
+  }
+
+  .read-all, .read-all:visited {
+    @include link-with-border;
+  }
+
+  .read-all:hover, .read-all:active {
+    @include link-goes-big;
+  }
+
+}
+
+.postExc:nth-of-type(odd) {
+  background-color: $list-background-even;
+}
+

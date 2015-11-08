@@ -1,16 +1,110 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
 
+$fonts:               Times, serif;
+$border:              1px solid black;
+
+$body-background:     blue;
+$header-background:   darkred;
+$wrapper-background:  lightgreen;
+
+$header-active:       darkgreen;
+$link-color:          black;
+$link-background:     orange;
+$link-hover:          orange;
+$margin-text-color:   grey;
+
+$inner-padding:       5%;
+
+$list-background-even: white;
+$list-background-odd: grey;
+
+@mixin link-goes-big {
+  background-color: $link-background;
+  text-decoration: none;
+  font-size: 2.5em;
+}
+
+@mixin link-with-border {
+  margin: $inner-padding $inner-padding 0 0;
+  text-align: center;
+  padding: $inner-padding;
+  border: $border;
+  display: block;
+  color: $link-color;
+}
+
+@mixin outer-box {
+  width: 100% - $inner-padding * 2;
+  margin: $inner-padding;
+}
+
+@mixin margin-text {
+  color: $margin-text-color;
+  text-decoration: none;
+}
+
+@mixin margin-link {
+  color: $margin-text-color;
+}
+
+@mixin margin-link-hover {
+  color: $link-hover;
+}
+
+@mixin border-h1 {
+  display: block;
+  text-align: center;
+  padding: 4em;
+  margin: 4em;
+  border: $border;
+  font-size: 1em;
+}
+
+@mixin p-content {
+  margin: 0 $inner-padding * 2 1em $inner-padding * 2;
+}
+
+@import "default", "postlist", "post";
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
-
 $spacing-unit:     30px;
 
 $text-color:       #111;
@@ -47,3 +141,5 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+*/

@@ -1,0 +1,36 @@
+
+article {
+  h2 {
+    @include border-h1;
+
+  }
+
+  h3 {
+    @include border-h1;
+    clear: both;
+  }
+}
+
+.post-date {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+.categories {
+  float: right;
+  border-left: $border;
+  padding: 0 0 0 1%;
+  margin: 0;
+  list-style-type: none;
+
+
+  a, a:visited, a:active {
+    @include margin-link;
+  }
+
+  a:hover {
+    @include margin-link-hover;
+  }
+
+}
