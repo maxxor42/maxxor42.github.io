@@ -2,37 +2,34 @@
 ---
 @charset "utf-8";
 
-$fonts:               Times, serif;
-$border:              1px solid black;
+$wrapper-width:         1000px;
 
-$body-background:     blue;
-$header-background:   darkred;
-$wrapper-background:  lightgreen;
+$fonts:                 Times, serif;
+$border:                1px solid black;
+$small-text:            0.7em;
 
-$header-active:       darkgreen;
-$link-color:          black;
-$link-background:     orange;
-$link-hover:          orange;
-$margin-text-color:   grey;
+$body-background:       none;
+$header-background:     darkred;
+$wrapper-background:    none;
+$inline-header-text:    darkred;
 
-$inner-padding:       5%;
+$header-active:         darkgreen;
+$link-color:            black;
+$link-background:       orange;
+$link-hover:            orange;
+$margin-text-color:     grey;
 
-$list-background-even: white;
-$list-background-odd: grey;
+$inner-padding:         5%;
+$margin:                5%;
+$small-margin:          2%;
+
+$list-background-even:  lightgrey;
+$list-background-odd:   none;
 
 @mixin link-goes-big {
   background-color: $link-background;
   text-decoration: none;
   font-size: 2.5em;
-}
-
-@mixin link-with-border {
-  margin: $inner-padding $inner-padding 0 0;
-  text-align: center;
-  padding: $inner-padding;
-  border: $border;
-  display: block;
-  color: $link-color;
 }
 
 @mixin outer-box {
@@ -43,27 +40,47 @@ $list-background-odd: grey;
 @mixin margin-text {
   color: $margin-text-color;
   text-decoration: none;
+  font-size: $small-text;
 }
 
 @mixin margin-link {
   color: $margin-text-color;
+  font-size: $small-text;
+
 }
 
 @mixin margin-link-hover {
   color: $link-hover;
 }
 
-@mixin border-h1 {
+@mixin big-border {
   display: block;
   text-align: center;
-  padding: 4em;
-  margin: 4em;
+  padding: $margin * 2 0;
+  margin: $margin * 2;
   border: $border;
   font-size: 1em;
+  color: black;
+}
+
+@mixin big-border-link {
+  display: block;
+  text-align: center;
+  margin: $small-margin $margin * 2;
+  padding: $margin $margin * 2;
+  border: $border;
+  font-size: 1em;
+  color: black;
+}
+
+@mixin post-exc-margin {
+  position: absolute;
+  width: 7%;
+  margin-top: 3em;
 }
 
 @mixin p-content {
-  margin: 0 $inner-padding * 2 1em $inner-padding * 2;
+  margin: 0 $margin * 2 1em $margin * 2;
 }
 
 @import "default", "postlist", "post";

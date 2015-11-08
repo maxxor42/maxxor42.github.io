@@ -13,31 +13,39 @@ body {
 }
 
 h1 {
-  @include border-h1;
+  @include big-border;
   display: block;
+  font-weight: normal;
+}
+
+p, h2, h3 {
+  @include p-content;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+h3 {
+  padding-top: 1em;
+  color: $inline-header-text;
+
 }
 
 #wrapper {
   background-color: $wrapper-background;
-  max-width: 1000px;
-  margin: 0 auto;
+  max-width: $wrapper-width;
   width: 100%;
+  margin: 0 auto;
 }
 
 
 #big-header {
-  text-align: center;
-  padding: $inner-padding;
+  padding: $margin 0;
   background-color: $header-background;
-
-
 }
 
 #margin-header {
-  position: absolute;
   text-align: right;
   right: $inner-padding;
-  top: 0;
 
   h1 {
     padding: 1% 0;

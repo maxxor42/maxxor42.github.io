@@ -3,9 +3,11 @@
         <h3>
             {{ post.title }}
         </h3>
-        <p class="post-date">
-            {{ post.date | date: "%-d %b %Y" | upcase }}
-        </p>
+        <div class="post-date">
+            <p>
+                {{ post.date | date: "%-d %b %Y" | upcase }}
+            </p>
+        </div>
         {% if post.categories %}
             <ul class="categories">
                 {% for category in post.categories %}
@@ -14,6 +16,5 @@
             </ul>
         {% endif %}
             {{ post.excerpt }}
-            <a href="{{ post.url }}" class="read-all">Läs hela bloggposten</a>
-        </div>
+            <a href="{{ post.url }}" class="read-all">Läs hela bloggposten</a></div>
 {% endfor %}

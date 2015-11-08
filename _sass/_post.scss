@@ -1,29 +1,47 @@
 
 article {
   h2 {
-    @include border-h1;
+    @include big-border;
 
   }
 
   h3 {
-    @include border-h1;
+    @include big-border;
     clear: both;
   }
 }
 
+.read-all, .read-all:visited {
+  @include big-border-link;
+}
+
+.read-all:hover, .read-all:active {
+  @include link-goes-big;
+}
+
 .post-date {
+  border-right: $border;
   float: left;
-  margin: 0;
-  padding: 0;
+  text-align: right;
+  margin: 0 $small-margin 0 0;
+  padding: 0 $small-margin 0 0;
+  width: $margin * 2 - $small-margin * 2;
+
+  p {
+    @include margin-text;
+    padding-right: 0;
+    margin-right: 0;
+  }
+
 }
 
 .categories {
   float: right;
   border-left: $border;
-  padding: 0 0 0 1%;
-  margin: 0;
+  padding: 0 0 0 $small-margin;
+  margin: 0 0 0 $small-margin;
   list-style-type: none;
-
+  width: $margin * 2 - $small-margin * 2;
 
   a, a:visited, a:active {
     @include margin-link;

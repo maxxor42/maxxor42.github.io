@@ -1,7 +1,7 @@
 ---
 inIndex: true
 title: projects
-layout: default
+layout: page
 permalink: /projects/
 ---
 
