@@ -23,7 +23,7 @@ $inner-padding:         5%;
 $margin:                5%;
 $small-margin:          2%;
 
-$list-background-even:  lightgrey;
+$list-background-even:  none;
 $list-background-odd:   none;
 
 @mixin link-goes-big {
@@ -41,12 +41,11 @@ $list-background-odd:   none;
   color: $margin-text-color;
   text-decoration: none;
   font-size: $small-text;
+  font-weight: normal;
 }
 
 @mixin margin-link {
   color: $margin-text-color;
-  font-size: $small-text;
-
 }
 
 @mixin margin-link-hover {

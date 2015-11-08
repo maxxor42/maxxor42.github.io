@@ -12,10 +12,19 @@ body {
   font: $fonts;
 }
 
-h1 {
-  @include big-border;
-  display: block;
-  font-weight: normal;
+#big-header {
+  h1 {
+    @include big-border;
+    display: block;
+    font-weight: normal;
+  }
+}
+
+#margin-header {
+  h1 {
+    text-align: right;
+    @include margin-text;
+  }
 }
 
 p, h2, h3 {
@@ -89,6 +98,15 @@ footer {
   p {
     margin: 0;
     padding: 1% 0;
+    @include margin-text;
+  }
+
+  a, a:active, a:visited {
+    @include margin-link;
+  }
+
+  a:hover {
+    @include margin-link-hover;
   }
 }
 

@@ -1,6 +1,7 @@
 .postExc {
   background-color: $list-background-odd;
   padding-bottom: $margin;
+  border-bottom: $border;
 }
 
 .postExc:nth-of-type(odd) {

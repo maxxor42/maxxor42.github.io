@@ -2,12 +2,16 @@
 article {
   h2 {
     @include big-border;
+    clear: both;
+  }
 
+  #big-border-background {
+    background-color: $header-background;
+    padding: $margin * 2 0;
+    margin-bottom: 1em;
   }
 
   h3 {
-    @include big-border;
-    clear: both;
   }
 }
 
@@ -26,13 +30,7 @@ article {
   margin: 0 $small-margin 0 0;
   padding: 0 $small-margin 0 0;
   width: $margin * 2 - $small-margin * 2;
-
-  p {
-    @include margin-text;
-    padding-right: 0;
-    margin-right: 0;
-  }
-
+  @include margin-text;
 }
 
 .categories {

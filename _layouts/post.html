@@ -7,11 +7,22 @@ layout: marginhead
 
     <h3>Blogginlägg:</h3>
 
-    <h2>{{ page.title }}</h2>
+    <div id="big-border-background">
+      <h2>{{ page.title }}</h2>
+    </div>
 
     {% include postmargin.html %}
 
     {{ content }}
+
+    {% if page.previous %}
+      <a href="{{ page.previous.url }}" class="read-all">Förra inlägget</a>
+    {% endif %}
+    {% if page.next %}
+    <a href="{{ page.next.url }}" class="read-all">Nästa inlägg</a>
+    {% endif %}
+
+
   </article>
 
 </div>

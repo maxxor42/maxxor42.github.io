@@ -1,9 +1,6 @@
 <header id="margin-header">
   <h1>
-    {{ site.title }}
-    {% if page.title %}
-      | {{ page.title }}
-    {% endif %}
+    {{ site.title | upcase }}
   </h1>
 </header>
 <nav>
