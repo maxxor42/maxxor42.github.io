@@ -1,0 +1,22 @@
+<nav>
+    <ul>
+        {% if page.title == "blog" %}
+        <li id="active">Blog</li>
+        {% else %}
+        <li><a href="/blog">Blog</a></li>
+        {% endif %}
+        {% for sub in site.pages %}
+        {% if sub.inIndex %}
+        {% if sub.title == page.title %}
+        <li id="active">
+            {{ sub.title }}
+        </li>
+        {% else %}
+        <li>
+            <a href="{{ sub.url }}">{{ sub.title }}</a>
+        </li>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+</nav>

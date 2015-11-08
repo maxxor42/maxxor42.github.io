@@ -84,8 +84,9 @@ nav {
   }
 
   #active {
+    @include link-goes-big;
     font-size: 2.5em;
-    color: $header-active;
+    background-color: $header-background;
   }
 }
 

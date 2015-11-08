@@ -1,10 +1,10 @@
 # Site settings
 title: Max Decroy Strandlund
-description: > Description of the site
+description: Description of the site
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
-
-
+paginate: 4
+paginate_path: "/blog/:num"
 
 # Build settings
 markdown: kramdown

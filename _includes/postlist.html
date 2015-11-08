@@ -1,4 +1,4 @@
-{% for post in site.posts %}
+{% for post in paginator.posts %}
     <div class="postExc">
         <h3>
             {{ post.title }}
@@ -18,3 +18,11 @@
             {{ post.excerpt }}
             <a href="{{ post.url }}" class="read-all">Läs hela bloggposten</a></div>
 {% endfor %}
+
+{% if paginator.next_page %}
+<a href="{{ paginator.next_page_path }}" class="read-all">Senare blogginlägg</a>
+{% endif %}
+
+{% if paginator.previous_page %}
+<a href="{{ paginator.previous_page_path }}" class="read-all">Tidigare blogginlägg</a>
+{% endif %}
