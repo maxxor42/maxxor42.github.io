@@ -21,6 +21,10 @@
 
 .read-all:hover, .read-all:active {
   @include link-goes-big;
+
+  @include responsive($break-point-mobile) {
+    font-size: 1em;
+  }
 }
 
 .post-date {

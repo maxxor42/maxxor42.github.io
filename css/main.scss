@@ -17,7 +17,7 @@ $header-active:         darkgreen;
 $link-color:            black;
 $link-background:       orange;
 $link-hover:            orange;
-$margin-text-color:     #99fffb;
+$margin-text-color:     #766bac;
 
 $inner-padding:         5%;
 $margin:                5%;
@@ -27,12 +27,22 @@ $list-background-even:  none;
 $list-background-odd:   none;
 
 $break-point-small:     700px;
+$break-point-mobile:     490px;
+
 
 @mixin link-goes-big {
   background-color: $link-background;
   text-decoration: none;
   font-size: 2.5em;
   border: 0;
+}
+
+@mixin link-goes-big-mobile {
+  color: $link-hover;
+  font-size: 1em;
+  background-color: initial;
+  padding: inherit;
+  border: inherit;
 }
 
 @mixin outer-box {

@@ -10,6 +10,10 @@ header, footer, main, h1 {
 body {
   background-color: $body-background;
   font: $fonts;
+  padding: 0 $small-margin;
+  @include responsive($break-point-small) {
+    padding: 0;
+  }
 }
 
 #big-header {
@@ -41,6 +45,30 @@ h3 {
 
 }
 
+img {
+  float: right;
+  width: 50% - $small-margin * 3;
+  margin: 0 0 $small-margin $small-margin;
+  padding: $small-margin;
+  border: $border;
+
+  @include responsive($break-point-small) {
+      float: none;
+      width: 100% - $small-margin * 2;
+      margin: 0;
+    }
+  }
+
+a, a:visited, a:active {
+  color: $link-color;
+}
+
+a:hover {
+  color: $link-hover;
+  text-decoration: none;
+  border-color: $link-hover;
+}
+
 #wrapper {
   background-color: $wrapper-background;
   max-width: $wrapper-width;
@@ -61,8 +89,16 @@ h3 {
   h1 {
     padding: 1% 0;
     color: $margin-text-color;
-    font-size: 1em;
+    font-size: $small-text;
     font-style: normal;
+
+    a, a:visited, a:active {
+      @include margin-link;
+    }
+
+    a:hover {
+      @include margin-link-hover;
+    }
   }
 }
 
@@ -83,6 +119,10 @@ nav {
     a:hover {
       @include link-goes-big;
       padding: $small-margin;
+
+      @include responsive($break-point-mobile) {
+        @include link-goes-big-mobile;
+      }
     }
   }
 
