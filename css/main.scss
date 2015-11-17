@@ -12,6 +12,7 @@ $body-background:       #aa99ff;
 $header-background:     #ffe399;
 $wrapper-background:    none;
 $inline-header-text:    #ffe399;
+$comment-background:    #6a6197;
 
 $header-active:         darkgreen;
 $link-color:            black;
@@ -35,6 +36,7 @@ $break-point-mobile:     490px;
   text-decoration: none;
   font-size: 2.5em;
   border: 0;
+  color: $link-color;
 }
 
 @mixin link-goes-big-mobile {

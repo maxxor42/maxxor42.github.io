@@ -10,7 +10,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices d
 Rubrik asdf adf
 ---------------
 
-![alt-text](/img/hund.jpg)
+![En hund](/img/hund.jpg)
  
 Turpis. Nullam luctus nisi facilisis, dictum augue ut, vestibulum eros. Nullam accumsan lacus sed augue euismod mollis. Fusce blandit viverra lorem, ut rhoncus dolor. Nunc pulvinar tincidunt sodales. Vestibulum gravida pellentesque blandit. Integer nec erat vel magna rutrum pellentesque. Aenean eu vehicula ex, id maximus erat. 
 

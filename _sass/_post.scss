@@ -48,6 +48,12 @@
   }
 }
 
+#disqus {
+  padding: 0 $margin;
+  margin: 0 $margin * 2;
+  background-color: $comment-background;
+}
+
 .categories {
   float: right;
   border-left: $border;

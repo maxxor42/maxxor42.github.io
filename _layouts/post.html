@@ -16,13 +16,13 @@ layout: marginhead
     {{ content }}
 
     {% if page.previous %}
-      <a href="{{ page.previous.url }}" class="read-all">Förra inlägget</a>
+      <a href="{{ page.previous.url }}" class="read-all">Föregående inlägg</a>
     {% endif %}
     {% if page.next %}
     <a href="{{ page.next.url }}" class="read-all">Nästa inlägg</a>
     {% endif %}
 
-
+  {% include comment.html %}
   </article>
 
 </div>
