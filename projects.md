@@ -12,7 +12,7 @@ Edit.md
 
 ![Edit.md](/img/editmd.jpg)
  
-A webbased text editor for markdown documents. I created it because I write everything in markdown, have all my docs in my dropbox and often work on computers others than my own. Own work.
+A webbased text editor for markdown documents. I created it because I write everything in markdown, have all my docs in my dropbox and often work on computers others than my own. Own project.
 
 [Edit.md](https://46.101.175.65/)
 
@@ -21,14 +21,14 @@ Journalist notation
 
 ![Journalist notation](/img/journalistnotation.jpg)
 
-A gentle proposal for a notion system specifically for online journalism.
+A gentle proposal for a notion system specifically for online journalism. Own project.
 
 Vahák
 -----
 
 ![En hund](/img/vahak.jpg)
 
-Stage art about intersection on colonial and homophobic violence. I did a digital pre-show piece in the form of a map. Oivvio Polite was programming. I did the concept.
+Stage art project about intersection on colonial and homophobic violence. I did a digital pre-show piece in the form of a map. Oivvio Polite was programming, i was doing concept.
 
 [Webpage](www.vahak.nu)
 
