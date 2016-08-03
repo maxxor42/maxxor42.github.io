@@ -21,6 +21,8 @@ Journalist notation
 
 ![Journalist notation](/img/journalistnotation.jpg)
 
+A gentle proposal for a notion system specifically for online journalism.
+
 Vahák
 -----
 
@@ -37,6 +39,7 @@ Europa Europa
 ![Europa Europa](/img/europaeuropa.jpg)
 
 A cabaret about the unhuman violence towards asylum seekers, from Europe. I coded the webpage and did the concept for an online web art project.
+
 [Webpage](www.europaeuropa.nu)
 
 Ful
@@ -51,7 +54,7 @@ Queer feminist and postcolonial earlier art magazine turned art collective. I di
 Förskjutningar
 --------------
 
-![Förskjutningar](/img/forskjutningar.jpg)
+![Förskjutningar](/img/forskjutningar.png)
 
 
 Web app artwork about longings that are questioned and healing processes. Did concept with Nasim Aghili, programmed by Oivvio Polite.
