@@ -5,28 +5,71 @@ layout: page
 permalink: /projects/
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices dignissim risus eget varius [Dolor sit amet](www.dn.se). Sed tempor malesuada mauris. Donec dui libero, euismod sed leo eu, cursus lobortis.
+These are some projects I've been fiddling with or been involved in the last years.
 
-Rubrik asdf adf
----------------
+Edit.md
+-------
 
-![En hund](/img/hund.jpg)
+![Edit.md](/img/editmd.jpg)
  
-Turpis. Nullam luctus nisi facilisis, dictum augue ut, vestibulum eros. Nullam accumsan lacus sed augue euismod mollis. Fusce blandit viverra lorem, ut rhoncus dolor. Nunc pulvinar tincidunt sodales. Vestibulum gravida pellentesque blandit. Integer nec erat vel magna rutrum pellentesque. Aenean eu vehicula ex, id maximus erat. 
+A webbased text editor for markdown documents. I created it because I write everything in markdown, have all my docs in my dropbox and often work on computers others than my own. Own work.
 
-Rubrik asdf adsf adsf adfdafadfadf
-----------------------------------
+[Edit.md](https://46.101.175.65/)
 
-![En hund](/img/hund.jpg)
+Journalist notation
+-------------------
 
-Integer rutrum fermentum tellus. Mauris porta arcu at leo interdum, nec consectetur mauris feugiat. Etiam porttitor augue velit, ac dignissim nulla aliquam eu. Vivamus risus lectus, laoreet eu mollis in, scelerisque in eros. Pellentesque scelerisque metus dui, quis gravida magna eleifend pretium. Cras ac tortor in urna posuere commodo. Sed turpis nisi, auctor vitae sapien ac, ullamcorper suscipit quam. Donec vulputate est ac viverra cursus. Nam est metus, accumsan nec vulputate eget, condimentum sed nisl. Pellentesque non tellus ut ligula bibendum iaculis a nec velit. Vestibulum vehicula libero ligula, ac sodales urna luctus et. Cras sollicitudin venenatis pharetra. Sed a ultrices nisi. Aliquam nec quam non tortor commodo tempus.
+![Journalist notation](/img/journalistnotation.jpg)
+
+Vahák
+-----
+
+![En hund](/img/vahak.jpg)
+
+Stage art about intersection on colonial and homophobic violence. I did a digital pre-show piece in the form of a map. Oivvio Polite was programming. I did the concept.
+
+[Webpage](www.vahak.nu)
 
 
-Adddf adfadffd
------------
+Europa Europa
+-------------
 
-![En hund](/img/hund.jpg)
+![Europa Europa](/img/europaeuropa.jpg)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ultrices dignissim risus eget varius. Sed tempor malesuada mauris. Donec dui libero, euismod sed leo eu, cursus lobortis turpis. Nullam luctus nisi facilisis, dictum augue ut, vestibulum eros. Nullam accumsan lacus sed augue euismod mollis. Fusce blandit viverra lorem, ut rhoncus dolor. Nunc pulvinar tincidunt sodales. Vestibulum gravida pellentesque blandit. Integer nec erat vel magna rutrum pellentesque. Aenean eu vehicula ex, id maximus erat.
+A cabaret about the unhuman violence towards asylum seekers, from Europe. I coded the webpage and did the concept for an online web art project.
+[Webpage](www.europaeuropa.nu)
 
-Integer rutrum fermentum tellus. Mauris porta arcu at leo interdum, nec consectetur mauris feugiat. Etiam porttitor augue velit, ac dignissim nulla aliquam eu. Vivamus risus lectus, laoreet eu mollis in, scelerisque in eros. Pellentesque scelerisque metus dui, quis gravida magna eleifend pretium. Cras ac tortor in urna posuere commodo. Sed turpis nisi, auctor vitae sapien ac, ullamcorper suscipit quam. Donec vulputate est ac viverra cursus. Nam est metus, accumsan nec vulputate eget, condimentum sed nisl. Pellentesque non tellus ut ligula bibendum iaculis a nec velit. Vestibulum vehicula libero ligula, ac sodales urna luctus et. Cras sollicitudin venenatis pharetra. Sed a ultrices nisi. Aliquam nec quam non tortor commodo tempus.
+Ful
+---
+
+![Ful](/img/ful.jpg)
+
+Queer feminist and postcolonial earlier art magazine turned art collective. I did some editing and art production.
+
+[Webpage](www.tidskriftenful.se)
+
+Förskjutningar
+--------------
+
+![Förskjutningar](/img/forskjutningar.jpg)
+
+
+Web app artwork about longings that are questioned and healing processes. Did concept with Nasim Aghili, programmed by Oivvio Polite.
+
+I mig
+-----
+
+![I mig](/img/imig.jpg)
+
+Art book about Parkinssons decease, by The Treassure Factory. Text editor, togheter with Helena Lindblom.
+
+[Adlibris](http://www.adlibris.com/se/bok/i-mig-9789198027402)
+
+PK - det finaste vi har
+-----------------------
+
+![PK - det finaste vi har](/img/pk.jpg)
+
+About reclaiming the term PK, because PK is something wonderful. Project by artists Hanne Lindberg and Parasto Beckman. I did webpage.
+
+[PK - det finaste vi har](www.pk-detfinastevihar.se)
